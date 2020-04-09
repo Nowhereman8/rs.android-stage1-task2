@@ -83,7 +83,7 @@ class DateFormatter {
                         when (daycode) {
                             0 -> res = ("$dayInt $s, суббота")
                             1 -> res = ("$dayInt $s, воскресенье")
-                            2 -> res = ("$dayInt $s, понелельник")
+                            2 -> res = ("$dayInt $s, понедельник")
                             3 -> res = ("$dayInt $s, вторник")
                             4 -> res = ("$dayInt $s, среда")
                             5 -> res = ("$dayInt $s, четверг")

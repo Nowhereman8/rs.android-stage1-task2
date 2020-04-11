@@ -7,7 +7,7 @@ class Pangram {
         var k = inputString
         var alphabet = arrayListOf('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
         var vovels = arrayListOf('a', 'A', 'i', 'I', 'u', 'U', 'e', 'E', 'o', 'O', 'y', 'Y')
-        var consonants = arrayListOf('b', 'B', 'c', 'C', 'd', 'D', 'f', 'F', 'j', 'J', 'h', 'H', 'k', 'K', 'l', 'L', 'm', 'M', 'n', 'N', 'p', 'P', 'q', 'Q', 'r', 'R', 's', 'S', 't', 'T', 'v', 'V', 'w', 'W', 'x', 'X', 'z', 'Z')
+        var consonants = arrayListOf('b', 'B', 'c', 'C', 'd', 'D', 'f', 'F', 'g', 'G', 'j', 'J', 'h', 'H', 'k', 'K', 'l', 'L', 'm', 'M', 'n', 'N', 'p', 'P', 'q', 'Q', 'r', 'R', 's', 'S', 't', 'T', 'v', 'V', 'w', 'W', 'x', 'X', 'z', 'Z')
         var normwords = arrayListOf<String>()
         var fin = arrayListOf<String>()
         var w = ""
@@ -54,6 +54,7 @@ class Pangram {
                 "n" -> "N"
                 "p" -> "P"
                 "q" -> "Q"
+                "r" -> "R"
                 "s" -> "S"
                 "t" -> "T"
                 "v" -> "V"
